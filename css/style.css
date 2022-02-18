@@ -99,12 +99,31 @@ header h1 {
     row-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
     }
+
+    header {
+        /* width: 80%; */
+    }
+} 
+
+@media (max-width: 700px) {
+    
+.image {
+ 
+    height: 60vh;
+ }
+}
+@media (max-width: 900px) {
+    
+    .mainDiv  {
+     
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+     }
+    }
+
+@media (min-width: 1750px){
     section {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    header {
-        /* width: 80%; */
-    }
-} 
+}
