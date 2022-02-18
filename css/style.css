@@ -29,19 +29,23 @@ header h1 {
 
 
 .image {
-    width: 100%;
+
    height: 30vh;
 }
 
 .italia {
     background-image: url(../img/italia.jpg);
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     opacity: 0.8;
 }
+
 
 .america {
     background-image: url(../img/america.jpg);
@@ -51,6 +55,10 @@ header h1 {
     background-size: cover;
     z-index: -1;
     opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .british  {
@@ -61,6 +69,10 @@ header h1 {
     background-size: cover;
     z-index: -1;
     opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .ukrain  {
@@ -71,6 +83,10 @@ header h1 {
     background-size: cover;
     z-index: -1;
     opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .indian {
@@ -81,23 +97,40 @@ header h1 {
     background-size: cover;
     z-index: -1;
     opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .text {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(14, 2, 192, 0.959);
+    color: rgba(1, 1, 7, 0.959);
+    
+}
+.he {
+    z-index: 9999;
+    opacity: 1.5;
+}
+.text img {
+    object-fit: cover;
+    width: 100%;
 }
 a {
     text-decoration: none;
-    color: rgba(14, 2, 192, 0.959);
+    color: #FFFF00;
+    font-size: 1.5em;
+    padding: 5px;
+
+}
+a:hover {
+    background-color: rgba(241, 234, 234, 0.281);
+    color: #00FFFF;
+    border: 1px solid #eaeaea;
 }
 
-.text h1 a:hover {
-    font-size: 1.5em;
-    color: black;
-}
 
  @media (min-width: 500px){
     .mainDiv {
@@ -141,18 +174,12 @@ a {
         justify-content: center;
         align-items: center;
     }
-    .indian {
+    #indonesia {
         grid-column: 1 / span 3;
     }
-    .ukrain {
+    #kiev {
         grid-column: 1 / span 2;
-       /* grid-column-start: 1 ;
-        grid-column-end: 3; */
     }
-    .british{
 
-      grid-column-start:  3;
-      grid-row-start:  2;
-      grid-row:  1 / span 3;
-    }
+ 
 }
