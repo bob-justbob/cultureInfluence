@@ -59,6 +59,8 @@ a:hover {
 }
 .text {
     width: 100%;
+    padding: 0;
+    
 }
 .section-c {
     padding: 5vh 0;
@@ -79,9 +81,10 @@ footer {
     align-items: center;
 }
 
-@media (max-width: 700px){
+@media (min-width: 700px){
     .text {
         width: 80%;
         padding-left: 10vh;
+        font-size: 1.5em;
     }
 }

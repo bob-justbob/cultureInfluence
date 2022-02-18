@@ -86,3 +86,13 @@ footer a:hover {
 .marriage {
     background-color: rgb(255, 220, 220);
 }
+
+.text {
+    padding: 0 2em;
+}
+
+@media (min-width: 700px) {
+    .text {
+        font-size: 1.5em;
+    }
+}

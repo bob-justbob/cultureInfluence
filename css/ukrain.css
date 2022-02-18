@@ -88,3 +88,13 @@ footer a:hover {
     box-shadow: 5px 0 10px rgb(240, 102, 228);
 
 }
+
+.text {
+    padding: 0 2em;
+}
+
+@media (min-width: 700px) {
+    .text {
+        font-size: 1.5em;
+    }
+}
