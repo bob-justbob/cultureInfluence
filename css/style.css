@@ -20,7 +20,7 @@ header h1 {
 .mainDiv {
     display: grid;
     gap: 2em;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 4fr));
     width: 80%;
 
 }
