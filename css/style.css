@@ -38,7 +38,7 @@ header h1 {
     height: 30vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,7 +57,7 @@ header h1 {
     opacity: 0.8;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -71,7 +71,7 @@ header h1 {
     opacity: 0.8;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -85,7 +85,7 @@ header h1 {
     opacity: 0.8;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -95,11 +95,11 @@ header h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
-    opacity: 0.8;
+    z-index: -111;
+    opacity: 0.5;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 
 }
 
@@ -120,15 +120,16 @@ header h1 {
 }
 a {
     text-decoration: none;
-    color: #FFFF00;
+    color: black;
     font-size: 1.5em;
-    padding: 5px;
-
+    /* padding: 5px; */
+    opacity: 2.1;
+    z-index: 1;
 }
 a:hover {
-    background-color: rgba(241, 234, 234, 0.281);
-    color: #00FFFF;
-    border: 1px solid #eaeaea;
+
+    color: #951010;
+
 }
 
 

@@ -51,24 +51,27 @@ a{
 
 .us-structure {
 
-    box-shadow: 5px 0 10px #333;
+    box-shadow: 5px 0 10px rgb(112, 110, 110);
 }
 
 .usDynamics {
-    box-shadow: 5px 0  10px rgb(189, 88, 88);
+    box-shadow: 5px 0  10px rgb(112, 110, 110);
 }   
 
 .us-gender {
-    box-shadow: 5px 0 10px rgb(22, 40, 90);
+    box-shadow: 5px 0  10px rgb(112, 110, 110);
+
 }
 
 .us-daiting {
-    box-shadow: 5px 0 10px rgb(1, 17, 59);
+    box-shadow: 5px 0  10px rgb(112, 110, 110);
+
 
 }
 
 .us-marriage {
-    box-shadow: 5px 0 10px rgb(0, 67, 238);
+    box-shadow: 5px 0  10px rgb(112, 110, 110);
+
 
 }
 
@@ -88,29 +91,12 @@ footer a{
 footer a:hover {
     font-size: 1.6em;
     color: white;
-    background-color: rgb(0, 17, 255);
+    background-color: rgb(70, 70, 73);
     border: 2px solid rgb(44, 37, 37);
 }
 
-.us-structure {
-    background-color: rgb(183, 205, 246);
-    box-shadow: 5px 0 10px rgb(22, 40, 90);
-}
-
-.usDynamics {
-    background-color: rgb(193, 213, 214);
-}
-
-.us-gender {
-    background-color: rgb(219, 212, 173);
-}
-
-.us-daiting {
-    background-color: rgb(134, 123, 123);
-}
-
-.us-marriage {
-    background-color: #dad8d8f8;
+section {
+    background-color: #eaeaea;
 }
 
 .text {
@@ -118,6 +104,12 @@ footer a:hover {
 }
 
 @media (min-width: 700px) {
+    .text {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 1800px) {
     .text {
         font-size: 1.5em;
     }

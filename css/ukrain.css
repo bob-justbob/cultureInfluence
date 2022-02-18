@@ -63,30 +63,38 @@ footer a{
 footer a:hover {
     font-size: 1.6em;
     color: white;
-    background-color: rgb(0, 17, 255);
+    background-color: rgb(70, 70, 73);
     border: 2px solid rgb(44, 37, 37);
 }
 
 .ukrain-Clutural {
-    background-color: rgb(11, 168, 173);
-    box-shadow: 5px 0 10px rgba(16, 209, 74, 0.808);
+ 
+    box-shadow: 5px 0  10px rgb(112, 110, 110);
+
 }
 
 .religion {
-    background-color: tan;
-    box-shadow: 5px 0 10px rgb(0, 0, 0);
+    
+    box-shadow: 5px 0  10px rgb(112, 110, 110);
+
 }
 
 .family {
-    background-color: rgb(231, 190, 197);
-    box-shadow: 5px 0 10px rgb(11, 168, 173);
+    
+    box-shadow: 5px 0  10px rgb(112, 110, 110);
+
 }
 
 
-.daitingandmarriage {
-    background-color: rgb(198, 255, 220);
-    box-shadow: 5px 0 10px rgb(240, 102, 228);
+.ukrainDait {
+ 
+    box-shadow: 5px 0 10px rgb(112, 110, 110);
 
+
+}
+
+section {
+    background-color: #eaeaea;
 }
 
 .text {
@@ -94,6 +102,11 @@ footer a:hover {
 }
 
 @media (min-width: 700px) {
+    .text {
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 1800px) {
     .text {
         font-size: 1.5em;
     }
