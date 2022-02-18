@@ -1,0 +1,110 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    background-color: #6d666648;
+}
+
+
+header {
+   color: black;
+   font-size: 1.2em;
+   background-color: bisque;
+}
+header h1 {
+    padding: 30px;
+}
+
+.mainDiv {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+    width: 80%;
+
+}
+ .mainDiv > * {
+    justify-content: center;
+    align-items: center;
+ } 
+
+
+.image {
+ 
+   height: 30vh;
+}
+
+.italia {
+    background-image: url(../img/italia.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.america {
+    background-image: url(../img/america.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.british  {
+    background-image: url(../img/britan.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.ukrain  {
+    background-image: url(../img/ukrain.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.indian {
+    background-image: url(../img/india.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.959);
+}
+
+ @media (min-width: 500px){
+    .mainDiv {
+        display: grid;
+    column-gap: 10em;
+    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+    }
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        /* width: 80%; */
+    }
+} 
