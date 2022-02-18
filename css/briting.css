@@ -9,6 +9,16 @@ header {
     background-color: #eaeaea;
     padding: 1vh;
 }
+header a{
+    color: #333;
+    padding: 5px;
+}
+header a:hover {
+    color: #eaeaea;
+    background-color: rgba(0, 0, 0, 0.404);
+    border: 1px solid #eaeaea;
+}
+
 li, a {
     list-style: none;
     text-decoration: none;
@@ -48,4 +58,31 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(255, 248, 220, 0);
+    height: 5vh;
+}
+
+footer a{
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+footer a:hover {
+    font-size: 1.6em;
+    color: white;
+    background-color: rgb(0, 17, 255);
+    border: 2px solid rgb(44, 37, 37);
+}
+
+.uk-family {
+    background-color: rgb(204, 198, 198);
+    box-shadow: 5px 0 10px rgb(44, 37, 37);
+}
+.ukRoles {
+    background-color: rgb(185, 108, 108);
+    box-shadow: 5px 0 10px rgb(117, 235, 225);
+}
+
+.marriage {
+    background-color: rgb(255, 220, 220);
 }
