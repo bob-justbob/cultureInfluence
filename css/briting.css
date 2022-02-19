@@ -39,15 +39,16 @@ a{
 
 .grid {
     text-align: center;
-    width: 100%;
+    width: 98%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 2vh;
 }
 .grid img {
     object-fit: cover;
-    width: 100%;
+    width: 70%;
     height: 500px;
+    padding: 2vh 0;
 }
 
 .text {
@@ -94,17 +95,23 @@ section {
     background-color: #eaeaea;
 }
 
-.text {
-    padding: 0 2em;
+.ukRoles .text{
+   width: 80%;
 }
+
 
 @media (min-width: 700px) {
     .text {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 }
 @media (max-width: 1800px) {
     .text {
-        font-size: 1.5em;
+        font-size: 1.1em;
+    }
+}
+@media (max-width: 550px) {
+    .text h1 {
+        font-size: 1.1em;
     }
 }

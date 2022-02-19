@@ -36,7 +36,7 @@ header a:hover{
 
 .grid {
     text-align: center;
-    width: 100%;
+    width: 98%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 2vh;
@@ -109,5 +109,10 @@ section {
 @media (max-width: 1800px) {
     .text {
         font-size: 1.5em;
+    }
+}
+@media (max-width: 550px) {
+    .text h1 {
+        font-size: 1.1em;
     }
 }
