@@ -7,7 +7,7 @@ body {
 }
 header {
     background-color: #eaeaea;
-    padding: 1vh;
+    padding: .5vh;
 }
 header a{
     color: #333;
@@ -23,14 +23,17 @@ li, a {
     text-decoration: none;
 }
 
+
 ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
+    
 }
 li {
-    padding-right: 28px;
-    font-size: 1.4em;
+    padding-right: 15px;
+    font-size: 1.5em;
+
 }
 a{
     color: #333;
@@ -117,5 +120,9 @@ section {
 @media (max-width: 550px) {
     .text h1 {
         font-size: 1.1em;
+    }
+    header li {
+        font-size: 1em;
+
     }
 }

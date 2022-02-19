@@ -16,10 +16,12 @@ li, a {
 ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;}
+    justify-content: left;
+    
+}
 li {
-    padding-right: 28px;
-    font-size: 1.4em;
+    padding-right: 15px;
+    font-size: 1em;
 }
 a{
     color: #333;
@@ -100,5 +102,9 @@ footer {
 @media (max-width: 550px) {
     .text h1 {
         font-size: 1.1em;
+    }
+    header li {
+        font-size: 1em;
+
     }
 }
